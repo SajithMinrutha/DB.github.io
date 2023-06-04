@@ -93,7 +93,7 @@
     color: #0B223A;
     border-color: rgb(253, 253, 253);
 }
-#project{
+.project{
     text-align: center;   
     margin-top: 55px;  
     font-family: 'Ubuntu', sans-serif;
@@ -195,9 +195,22 @@
     border-radius: 6px;
   }
   
-  
-@media screen and (max-width: 600px) {
 
+@media screen and (max-width: 600px) {
+    
+    .project{
+        font-size: 30px;
+    }
+    #header{
+        font-size: 36px;
+    }
+    #nav-bar{
+        display: none;
+        
+    }
+    #pic{
+        display: none;
+    }
     .timeline::after {
       left: 31px;
     }
@@ -227,3 +240,7 @@
       left: 0%;
     }
   }
+
+#about{
+    margin-top: 100px;
+}
