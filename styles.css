@@ -202,7 +202,9 @@
         font-size: 30px;
     }
     #header{
-        font-size: 36px;
+        margin: 0;
+        padding: 0;
+        font-size: 34px;
     }
     #nav-bar{
         display: none;
@@ -242,5 +244,5 @@
   }
 
 #about{
-    margin-top: 101px;
+    margin-top: 100px;
 }
